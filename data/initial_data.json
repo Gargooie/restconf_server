@@ -1,0 +1,145 @@
+{
+  "example-jukebox:jukebox": {
+    "player": {
+      "gap": "1.5"
+    },
+    "library": {
+      "artist": [
+        {
+          "name": "Nirvana",
+          "album": [
+            {
+              "name": "Nevermind",
+              "genre": "jbox:rock",
+              "year": 1991,
+              "admin": {
+                "label": "DGC Records",
+                "catalogue-number": "DGCD-24425"
+              },
+              "song": [
+                {
+                  "name": "Smells Like Teen Spirit",
+                  "location": "/media/nirvana/nevermind/01-smells-like-teen-spirit.mp3",
+                  "format": "MP3",
+                  "length": 301
+                },
+                {
+                  "name": "In Bloom",
+                  "location": "/media/nirvana/nevermind/02-in-bloom.mp3",
+                  "format": "MP3",
+                  "length": 254
+                },
+                {
+                  "name": "Come As You Are",
+                  "location": "/media/nirvana/nevermind/03-come-as-you-are.mp3",
+                  "format": "MP3",
+                  "length": 219
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "The Beatles",
+          "album": [
+            {
+              "name": "Abbey Road",
+              "genre": "jbox:rock",
+              "year": 1969,
+              "admin": {
+                "label": "Apple Records",
+                "catalogue-number": "PCS 7088"
+              },
+              "song": [
+                {
+                  "name": "Come Together",
+                  "location": "/media/beatles/abbey-road/01-come-together.mp3",
+                  "format": "MP3",
+                  "length": 259
+                },
+                {
+                  "name": "Something",
+                  "location": "/media/beatles/abbey-road/02-something.mp3",
+                  "format": "MP3",
+                  "length": 182
+                },
+                {
+                  "name": "Here Comes the Sun",
+                  "location": "/media/beatles/abbey-road/03-here-comes-the-sun.mp3",
+                  "format": "MP3",
+                  "length": 185
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Miles Davis",
+          "album": [
+            {
+              "name": "Kind of Blue",
+              "genre": "jbox:jazz",
+              "year": 1959,
+              "admin": {
+                "label": "Columbia Records",
+                "catalogue-number": "CL 1355"
+              },
+              "song": [
+                {
+                  "name": "So What",
+                  "location": "/media/miles-davis/kind-of-blue/01-so-what.mp3",
+                  "format": "MP3",
+                  "length": 320
+                },
+                {
+                  "name": "Blue in Green",
+                  "location": "/media/miles-davis/kind-of-blue/02-blue-in-green.mp3",
+                  "format": "MP3",
+                  "length": 337
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "playlist": [
+      {
+        "name": "Favorites",
+        "description": "My favorite songs collection",
+        "song": [
+          {
+            "index": 1,
+            "id": "/example-jukebox:jukebox/library/artist[name=\"Nirvana\"]/album[name=\"Nevermind\"]/song[name=\"Smells Like Teen Spirit\"]"
+          },
+          {
+            "index": 2,
+            "id": "/example-jukebox:jukebox/library/artist[name=\"The Beatles\"]/album[name=\"Abbey Road\"]/song[name=\"Come Together\"]"
+          },
+          {
+            "index": 3,
+            "id": "/example-jukebox:jukebox/library/artist[name=\"Miles Davis\"]/album[name=\"Kind of Blue\"]/song[name=\"So What\"]"
+          }
+        ]
+      },
+      {
+        "name": "Rock Classics",
+        "description": "Classic rock songs",
+        "song": [
+          {
+            "index": 1,
+            "id": "/example-jukebox:jukebox/library/artist[name=\"Nirvana\"]/album[name=\"Nevermind\"]/song[name=\"Smells Like Teen Spirit\"]"
+          },
+          {
+            "index": 2,
+            "id": "/example-jukebox:jukebox/library/artist[name=\"Nirvana\"]/album[name=\"Nevermind\"]/song[name=\"In Bloom\"]"
+          },
+          {
+            "index": 3,
+            "id": "/example-jukebox:jukebox/library/artist[name=\"The Beatles\"]/album[name=\"Abbey Road\"]/song[name=\"Come Together\"]"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+server:
+  host: "localhost"
+  port: 8080
+
+datastore:
+  data_file: "data/initial_data.json"
+
+yang:
+  modules_dir: "yang_modules"
+  library_file: "library.json"
